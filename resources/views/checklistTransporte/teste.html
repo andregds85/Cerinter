@@ -1,0 +1,120 @@
+<html>
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Made with Thimble</title>
+
+<!-- Bootstrap 4.0 -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<!--Code by Byspel.com -->
+ <!--Code by Byspel.com -->
+
+<!-- Contenedor -->
+ <div class="container-fluid">
+ <div class="row">
+
+<div class="col-lg-10">
+ <!-- Card -->
+ <div class="card w-75">
+
+<div class="container">
+ <div class="row">
+ <div class="col-sm-12">
+ <br>
+ <!-- Titulo del Card -->
+ <h5 class="card-title">Ejemplo</h5>
+ <br>
+ </div>
+ </div>
+
+<div class="row">
+ <div class="col-sm-12">
+ <form id="" action="">
+
+<!-- Productos -->
+ <div class="form-group"> 
+ <label for="state_id" class="control-label">Productos</label>
+ <!-- Boton Agregar -->
+ <input class="btn btn-secondary btn-sm" type="button" title="Agregar Producto" Value="+" onclick="agregar()">
+ <!-- Boton Borrar -->
+ <input class="btn btn-secondary btn-sm" type="button" title="Borrar Producto" Value="-" onclick="borrar()">
+ <br>
+ <br>
+ <!-- Div donde se añadiran los Selects -->
+ <div id="productos">
+ </div>
+
+<br> 
+ <input class="btn btn-info btn-sm " type="submit" Value="Guardar" >
+ </div>
+ </form>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+
+
+ <script language="JavaScript">
+ //Creacion de Variable incremental
+ var incremento = 0;
+
+//Lo que se hará cuando se presione el boton de Agregar
+ function agregar(obj)
+ {
+
+incremento++;
+
+
+ //Obteniendo el Div "productos"
+ bloque = document.getElementById('productos');
+
+//Creando el Select que irá dentro del Div "productos"
+ elemento = document.createElement('select');
+ elemento.setAttribute("class", "custom-select custom-select-sm-1 mb-3" );
+ elemento.id = 'select'+incremento;
+ bloque.appendChild(elemento);
+
+
+ //Llenando el arreglo que contendrá los "Options" de nuestro "Select"
+ var options = [
+ "Camisa",
+ "Sueter",
+ "Jeans",
+ "Sudadera",
+ "Zapatos"
+ ];
+
+
+ //Agregando nuestros "Options" a nuestro "Select"
+ for (var i = 0; i < options.length; i++) {
+ var option = document.createElement("option");
+ option.value = options[i];
+ option.text = options[i];
+ elemento.appendChild(option);
+ }
+ }
+
+
+ //Lo que se hará cuando se presione el boton de Borrar
+ function borrar(obj) {
+ incremento = incremento - 1;
+ bloque = document.getElementById('productos');
+ bloque.removeChild(bloque.lastChild);
+ }
+ </script>
+ <footer>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ </footer>
+
+</body>
+
+</html>
