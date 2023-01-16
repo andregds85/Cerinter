@@ -1505,19 +1505,407 @@ HOSPITAL E MATERNIDADE RIO DO TESTO
 
 
 
-<!--HOSPITAL E MATERNIDADE RIO DO TESTO-->  
+<!--HOSPITAL E MATERNIDADE SANTA CECILIA-->  
 <li>
 <div class="collapsible-header">
 <i class="material-icons">local_hospital
 </i>
-HOSPITAL E MATERNIDADE RIO DO TESTO
+HOSPITAL E MATERNIDADE SANTA CECILIA
 <span class="new badge"></span></div>
     <div class="collapsible-body">
     <form>
     <input type="button" value="Imprimir" onClick="window.print()" />
     </form>   
     <?php
-        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2513838");
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2302748");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+  
+<!--HOSPITAL E MATERNIDADE SANTA TEREZINHA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL E MATERNIDADE SANTA TEREZINHA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2377632");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+<!--HOSPITAL E MATERNIDADE TEREZA RAMOS-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL E MATERNIDADE TEREZA RAMOS
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2504332");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+<!--HOSPITAL E MAT. MARIETA K. BORNHAUSEN-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL E MAT. MARIETA K. BORNHAUSEN
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2522691");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+      
+<!--HOSPITAL FELIX DA COSTA GOMES-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL FELIX DA COSTA GOMES
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2490935");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+ 
+  
+<!--HOSPITAL FLORIANÓPOLIS-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL FLORIANÓPOLIS
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/19305");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+
+<!--HOSPITAL FREI BRUNO-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL FREI BRUNO
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2411415");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+<!--HOSPITAL FREI ROGERIO-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL FREI ROGERIO
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2300435");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+<!--HOSPITAL GERAL JOINVILLE-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL GERAL JOINVILLE
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/9757090");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+  <!--HOSPITAL GOVERNADOR CELSO RAMOS-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL GOVERNADOR CELSO RAMOS
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2691841");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+
+  <!--HOSPITAL GUARUJA-->  
+  <li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL GUARUJA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2378175");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+
+<!--HOSPITAL HELIO ANJO ORTIZ-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL HELIO ANJO ORTIZ
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2302101");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+<!--HOSPITAL HOSCOLA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL HOSCOLA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2672154");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+<!--HOSPITAL INFANTIL DR JESER AMARANTE FARIA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL INFANTIL DR JESER AMARANTE FARIA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/6048692");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+<!--HOSPITAL INFANTIL JOANA DE GUSMAO-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL INFANTIL JOANA DE GUSMAO
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2691868");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+
+  <!--HOSPITAL INFANTIL SEARA DO DO BEM-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL INFANTIL SEARA DO DO BEM
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2662914");
        /* echo $hg; */
         $hosp=(explode(',',$hg)); 
         for ($x = 0; $x <= 36; $x++) {
@@ -1535,6 +1923,9 @@ HOSPITAL E MATERNIDADE RIO DO TESTO
 
 
 
+
+
+  
 
 </ul>
 </div>
