@@ -10,8 +10,7 @@
 </div>
 
 <?php
-    use App\Http\Controllers\ProdutoController;
-
+use App\Http\Controllers\ProdutoController;
 ?>
     <div class="row">
         <div class="col-lg-12 margin-tb">
