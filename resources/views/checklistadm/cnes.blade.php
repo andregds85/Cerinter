@@ -2918,6 +2918,564 @@ HOSPITAL REGIONAL SÃO PAULO
   </div>
   </li>
 
+  
+<!--HOSPITAL RIO NEGRINHO-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL RIO NEGRINHO
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2521695");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+  
+
+
+  <!--HOSPITAL ROGACIONISTA EVANGELICO-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL ROGACIONISTA EVANGELICO
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2410834");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+  <!--HOSPITAL SAGRADA FAMILIA-->  
+  <li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SAGRADA FAMILIA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2521792");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+<!--HOSPITAL SAGRADA FAMILIA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SAGRADA FAMILIA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2521792");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+<!--HOSPITAL SAMARIA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SAMARIA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2379627");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+
+
+<!--HOSPITAL SANTA CASA RURAL-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTA CASA RURAL
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2378167");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+  
+
+<!--HOSPITAL SANTA CATARINA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTA CATARINA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2522101");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+  
+
+<!--HOSPITAL SANTA CLARA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTA CLARA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2300486");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+<!--HOSPITAL SANTA CRUZ-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTA CRUZ
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2491249");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+<!--HOSPITAL SANTA ISABEL-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTA ISABEL
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2558246");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+
+<!--HOSPITAL SANTA JULIANA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTA JULIANA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2302543");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+
+<!--HOSPITAL SANTA LUZIA DE DEOLINDO JOSE BAGGIO-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTA LUZIA DE DEOLINDO JOSE BAGGIO
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2411164");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+<!--HOSPITAL SANTA TERESA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTA TERESA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2302950");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+
+<!--HOSPITAL SANTA TERESINHA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTA TERESINHA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2665883");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+
+
+<!--HOSPITAL SANTA TERESINHA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTA TERESINHA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2560771");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+
+<!--HOSPITAL SANTO ANTONIO-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTO ANTONIO
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2558254");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>
+
+
+
+
+<!--HOSPITAL SANTO ANTONIO CAMPO ERE-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTO ANTONIO CAMPO ERE
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2537850");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>  
+
+
+
+
+
+<!--HOSPITAL SANTO ANTONIO DE ITAIOPOLIS-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTO ANTONIO DE ITAIOPOLIS
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2665107");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>  
+
+
+
+
+
+
+<!--HOSPITAL SANTO ANTONIO GUARAMIRIM-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTO ANTONIO GUARAMIRIM
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2492342");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>  
+
+
+
+<!--HOSPITAL SANTO ANTONIO HSA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SANTO ANTONIO HSA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2550938");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>  
+
+
+
+
+
+<!--HOSPITAL SAO BENEDITO-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>
+HOSPITAL SAO BENEDITO
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2660717");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>  
+
+
+
 
 
 
