@@ -4468,7 +4468,6 @@ HOSPITAL SAO PEDRO
   </li>    
 
 
-
 <!--INSTITUTO DE PSIQUIATRIA IPQ-->  
 <li>
 <div class="collapsible-header">
@@ -4494,12 +4493,289 @@ HOSPITAL SAO PEDRO
 
 
 
+<!--INSTITUTO SANTE HOSPITAL DE DIONISIO CERQUEIRA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>INSTITUTO SANTE HOSPITAL DE DIONISIO CERQUEIRA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2658372");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
+
+
+  
+ 
+<!--MATERNIDADE CARMELA DUTRA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>MATERNIDADE CARMELA DUTRA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/19283");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
+      
+
+
+ 
+<!--MATERNIDADE DARCY VARGAS-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>MATERNIDADE DARCY VARGAS
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2436477");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
+
+
+
+
+ 
+<!--MATERNIDADE DONA CATARINA KUSS-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>MATERNIDADE DONA CATARINA KUSS
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2379341");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
+
+
+
+ 
+<!--MATERNO INFANTIL SANTA CATARINA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>MATERNO INFANTIL SANTA CATARINA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2594277");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
+
+
+
+
+
+<!--PRONTO ATENDIMENTO 24 HORAS ITAPOA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>PRONTO ATENDIMENTO 24 HORAS ITAPOA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2658275");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
 
 
 
 
 
 
+<!--SOCIEDADE CULTURAL E BENEFICENTE SAO JOSE-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>SOCIEDADE CULTURAL E BENEFICENTE SAO JOSE
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2377462");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<!--SOCIEDADE HOSPITALAR ITAPIRANGA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>SOCIEDADE HOSPITALAR ITAPIRANGA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/5749018");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
+
+
+ 
+<!--UNIDADE DE PRONTO ATENDIMENTO UPA 24 H PADRE ALDO SEIDEL-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>UNIDADE DE PRONTO ATENDIMENTO UPA 24 H PADRE ALDO SEIDEL
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/9202269");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
+
+
+  
+<!--UNIDADE DE PRONTO ATENDIMENTO UPA VIDEIRA-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>UNIDADE DE PRONTO ATENDIMENTO UPA VIDEIRA
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/9649735");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
+
+
+
+<!--UNIDADE MISTA DE SAUDE NOSSA SENHORA DE SALETE-->  
+<li>
+<div class="collapsible-header">
+<i class="material-icons">local_hospital
+</i>UNIDADE MISTA DE SAUDE NOSSA SENHORA DE SALETE
+<span class="new badge"></span></div>
+    <div class="collapsible-body">
+    <form>
+    <input type="button" value="Imprimir" onClick="window.print()" />
+    </form>   
+    <?php
+        $hg = file_get_contents("https://apidadosabertos.saude.gov.br/cnes/estabelecimentos/2380242");
+       /* echo $hg; */
+        $hosp=(explode(',',$hg)); 
+        for ($x = 0; $x <= 36; $x++) {
+         echo $hosp[$x];
+         echo "<br>";
+       }
+    ?>
+  </div>
+  </li>    
 
 
 
