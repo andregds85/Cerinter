@@ -25,6 +25,8 @@ use App\Http\Controllers\BuscaUsuarioController;
 use App\Http\Controllers\ChecklistControllerPDFS;
 use App\Http\Controllers\TaxaController;
 use App\Http\Controllers\CnesController;
+use App\Http\Controllers\Cnes1Controller;
+
 use App\Http\Controllers\OcupacaoControllerPDF;
 
 
@@ -56,6 +58,8 @@ Route::group(['middleware' => ['auth']], function() {
     Route::resource('sucesso', MonitoramentoController::class);
     Route::resource('taxa', TaxaController::class);
     Route::resource('cnes', CnesController::class);
+    Route::resource('cnes1', Cnes1Controller::class);
+
 
     Route::resource('aerio', aerioController::class);
     Route::resource('apaga', apagaController::class);
