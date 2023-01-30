@@ -22,6 +22,7 @@ return array(
     'App\\Http\\Controllers\\ChecklistControllerPDF' => $baseDir . '/app/Http/Controllers/ChecklistControllerPDF.php',
     'App\\Http\\Controllers\\ChecklistControllerPDFS' => $baseDir . '/app/Http/Controllers/ChecklistControllerPDFS.php',
     'App\\Http\\Controllers\\ChecklistControlleradm' => $baseDir . '/app/Http/Controllers/ChecklistControlleradm.php',
+    'App\\Http\\Controllers\\Cnes1Controller' => $baseDir . '/app/Http/Controllers/Cnes1Controller.php',
     'App\\Http\\Controllers\\CnesController' => $baseDir . '/app/Http/Controllers/CnesController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',

@@ -676,6 +676,7 @@ class ComposerStaticInitad427575ce04c5c654559c701f2d00a8
         'App\\Http\\Controllers\\ChecklistControllerPDF' => __DIR__ . '/../..' . '/app/Http/Controllers/ChecklistControllerPDF.php',
         'App\\Http\\Controllers\\ChecklistControllerPDFS' => __DIR__ . '/../..' . '/app/Http/Controllers/ChecklistControllerPDFS.php',
         'App\\Http\\Controllers\\ChecklistControlleradm' => __DIR__ . '/../..' . '/app/Http/Controllers/ChecklistControlleradm.php',
+        'App\\Http\\Controllers\\Cnes1Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Cnes1Controller.php',
         'App\\Http\\Controllers\\CnesController' => __DIR__ . '/../..' . '/app/Http/Controllers/CnesController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
